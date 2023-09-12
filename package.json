@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer_scrapper",
+  "version": "1.0.0",
+  "description": "A simple webscrapper implementation with puppeteer.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abhinav Pratap Singh",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "puppeteer": "^21.1.1"
+  }
+}
