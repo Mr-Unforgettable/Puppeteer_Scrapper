@@ -32,8 +32,8 @@ Once you have scraped data, you can categorize it using the following flags:
 
 - For example:
 ```bash
-node <file.js> categorize -a "John Doe"
-node <file.js> categorize -t "Technology"
+node scraper.js categorize -a "John Doe"
+node scraper.js categorize -t "Technology"
 ```
 This command will categorize the scraped data by filtering for entries with the author "John Doe" or with the tag "Technology."
 
@@ -49,7 +49,7 @@ node scraper.js scrape
 
 Categorize the scraped data by filtering for a specific author and tag:
 ```bash
-node <file_name>.js categorize -a "John Doe"
+node scraper.js categorize -a "John Doe"
 ```
 OR
 ```bash
