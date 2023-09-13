@@ -10,6 +10,7 @@ This is a command-line tool written in Node.js that allows you to scrape data fr
 To use the scraper, follow these instructions:
 
 - Scrape Data: If you don't have a scraped data file yet, run the following command to start web scraping:
+
 ```node <file.js> scrape```
 Replace <file.js> with the name of your Node.js script and <url> with the URL you want to scrape.
 
@@ -18,6 +19,7 @@ Replace <file.js> with the name of your Node.js script and <url> with the URL yo
 -t or --tag "tag name": Filter data by the tag's name.
 
 For example:
+
 ```node <file.js> categorize -a "John Doe"```
 ```node <file.js> categorize -t "Technology"```
 
@@ -28,6 +30,7 @@ Store Data: The categorized data will be stored in a JSON file for further analy
 Here's an example of how to use the scraper:
 
 Run the scraper to fetch data from a URL:
+
 ```node scraper.js scrape```
 
 Categorize the scraped data by filtering for a specific author and tag:
